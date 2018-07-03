@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="template">
+	<name>Endymion</name>
+	<creationDate>2018-06-23</creationDate>
+	<author>Erick Castrillo</author>
+	<authorEmail>erick.castrillo@egmail.com</authorEmail>
+	<copyright>Erick Castrillo</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.0</version>
+	<description>Template diseñado a partir del UI Kit "Now UI Kit" from Creative Tim</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>favicon.ico</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+		<folder>sass</folder>
+	</files>
+	<positions>
+		<position>hero</position>
+		<position>menu</position>
+		<position>about</position>
+		<position>mission</position>
+		<position>vision</position>
+		<position>values</position>
+		<position>slogan</position>
+		<position>services</position>
+		<position>projects</position>
+		<position>contact</position>
+		<position>footer</position>
+		<position>languaje</position>
+	</positions>
+	<config>
+		<fields name="params">
+			<fieldset name="general" label="General">
+				<field name="logo_text"
+					   type="text"
+					   label="Logo Text"
+					   description="Ingrese el nombre del logo"
+			     />
+				<field name="copyrigt_text"
+					   type="text"
+					   label="Copyright Text"
+					   description="Ingrese su copyright"
+			     />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
